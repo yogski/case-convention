@@ -48,6 +48,10 @@ describe("Type conversion: Macro Case", () => {
   test("dot case to macro case", () => {
     expect(Convention.macroCase(DOT_CASE_VAL)).toBe(MACRO_CASE_VAL);
   })
+
+  test("alias macro case", () => {
+    expect(Convention.upperCaseSnakeCase(NORMAL_CASE_VAL)).toBe(MACRO_CASE_VAL);
+  })
 })
 
 describe("Type conversion: Snake Case", () => {
@@ -199,6 +203,10 @@ describe("Type conversion: Kebab Case", () => {
 
   test("dot case to kebab case", () => {
     expect(Convention.kebabCase(DOT_CASE_VAL)).toBe(KEBAB_CASE_VAL);
+  })
+
+  test("alias of kebab case", () => {
+    expect(Convention.slug(NORMAL_CASE_VAL)).toBe(KEBAB_CASE_VAL);
   })
 })
 
