@@ -1,3 +1,3 @@
-import { Num } from './Num'
+import { Convention } from './Convention'
 
-export { Num }
+export { Convention }
