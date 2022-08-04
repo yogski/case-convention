@@ -1,4 +1,4 @@
-import { Convention } from "../src/Convention"
+import { Convention } from "../index"
 
 const BASE_TEST_STRING = "hello world"
 
