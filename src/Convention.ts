@@ -1,4 +1,4 @@
-import { prepare, tokenify } from "../util/strings"
+import { prepare, tokenify } from "./strings"
 
 export class Convention {
 

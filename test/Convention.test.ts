@@ -1,4 +1,4 @@
-import { Convention } from "../index"
+import { Convention } from "../src/index"
 
 const MACRO_CASE_VAL = "HELLO_WORLD"
 const NORMAL_CASE_VAL = "hello world"
