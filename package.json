@@ -42,7 +42,7 @@
     "url": "git@github.com:yogski/case-convention.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/example-typescript-package/issues"
+    "url": "https://github.com/yogski/case-convention/issues"
   },
   "dependencies": {},
   "devDependencies": {
